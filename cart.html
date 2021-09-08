@@ -4,29 +4,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Favicon -->
+  <!-- Favicon--->
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
-  <!-- Box icons -->
+  <!-- Box icons--->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 
-  <!-- Custom StyleSheet -->
+  <!-- Custom StyleSheet --->
   <link rel="stylesheet" href="./css/styles.css" />
+
   <title>Your Cart</title>
 </head>
 
 <body>
-  <!-- Navigation -->
+  <!-- Navigation ---->
   <nav class="nav">
     <div class="navigation container">
       <div class="logo">
-        <h1>Codevo</h1>
+        <h1>Shoppers Store</h1>
       </div>
 
       <div class="menu">
         <div class="top-nav">
           <div class="logo">
-            <h1>Codevo</h1>
+            <h1>Shoppers Store</h1>
           </div>
           <div class="close">
             <i class="bx bx-x"></i>
@@ -47,7 +48,7 @@
             <a href="#contact" class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Join Us</a>
+            <a href="account.html" class="nav-link">Account</a>
           </li>
           <li class="nav-item">
             <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
@@ -65,115 +66,97 @@
     </div>
   </nav>
 
-  <!-- Cart Items -->
-  <div class="container-md cart">
-    <table>
+  <!-----cart items--->
+<div class="small-container cart-page">
+  <table>
       <tr>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Subtotal</th>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Sub Total</th>
       </tr>
       <tr>
-        <td>
-          <div class="cart-info">
-            <img src="./images/pic1.jpg" alt="">
-            <div>
-              <p>Boy’s T-Shirt</p>
-              <span>Price: $50.00</span>
-              <br />
-              <a href="#">remove</a>
-            </div>
-          </div>
-        </td>
-        <td><input type="number" value="1" min="1"></td>
-        <td>$50.00</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="./images/pic2.jpg" alt="">
-            <div>
-              <p>Boy’s T-Shirt</p>
-              <span>Price: $90.00</span>
-              <br />
-              <a href="#">remove</a>
-            </div>
-          </div>
-        </td>
-        <td><input type="number" value="1" min="1"></td>
-        <td>$90.00</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="./images/pic3.jpg" alt="">
-            <div>
-              <p>Boy’s T-Shirt</p>
-              <span>Price: $60.00</span>
-              <br />
-              <a href="#">remove</a>
-            </div>
-          </div>
-        </td>
-        <td><input type="number" value="1" min="1"></td>
-        <td>$60.00</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="./images/pic4.jpg" alt="">
-            <div>
-              <p>Boy’s T-Shirt</p>
-              <span>Price: $60.00</span>
-              <br />
-              <a href="#">remove</a>
-            </div>
-          </div>
-        </td>
-        <td><input type="number" value="1" min="1"></td>
-        <td>$60.00</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="./images/pic5.jpg" alt="">
-            <div>
-              <p>Boy’s T-Shirt</p>
-              <span>Price: $60.00</span>
-              <br />
-              <a href="#">remove</a>
-            </div>
-          </div>
-        </td>
-        <td><input type="number" value="1" min="1"></td>
-        <td>$60.00</td>
-      </tr>
-    </table>
+          <td>
+              <div class="cart-info">
+                  <img src="images/OO3.jpg" alt="">
+                  <div>
+                      <p>Dress</p>
+                      <small>Price : $50.00</small>
+                      <br>
+                      <a href="">Remove</a>
+                  </div>
+              </div>
 
-    <div class="total-price">
-      <table>
-        <tr>
-          <td>Subtotal</td>
-          <td>$200</td>
-        </tr>
-        <tr>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>$50.00</td>
+      </tr>
+
+      <tr>
+          <td>
+              <div class="cart-info">
+                  <img src="images/f3.jpg" alt="">
+                  <div>
+                      <p>Dress</p>
+                      <small>Price : $40.00</small>
+                      <br>
+                      <a href="">Remove</a>
+                  </div>
+              </div>
+
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>$50.00</td>
+      </tr>
+
+      <tr>
+          <td>
+              <div class="cart-info">
+                  <img src="images/OO6.jpg" alt="">
+                  <div>
+                      <p>Dress</p>
+                      <small>Price : $30.00</small>
+                      <br>
+                      <a href="">Remove</a>
+                  </div>
+              </div>
+
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>$50.00</td>
+      </tr>
+
+  </table>
+
+<div class="total-price">
+  <table>
+      <tr>
+          <td>SubTotal</td>
+          <td>$150.00</td>
+      </tr>
+      <tr>
           <td>Tax</td>
-          <td>$50</td>
-        </tr>
-        <tr>
+          <td>$35.00</td>
+      </tr><tr>
           <td>Total</td>
-          <td>$250</td>
-        </tr>
-      </table>
-      <a href="#" class="checkout btn">Proceed To Checkout</a>
+          <td>$185.00</td>
+      </tr>
 
-    </div>
-
-  </div>
+  </table>
+</div>
 
 
 
-  <!-- Footer -->
+
+</div>
+
+
+
+
+
+  
+
+
+  <!-- Footer --->
   <footer id="footer" class="section footer">
     <div class="container">
       <div class="footer-container">
@@ -207,7 +190,7 @@
             <span>
               <i class="fas fa-map-marker-alt"></i>
             </span>
-            42 Dream House, Dreammy street,  USA
+            42 Dream House, Dreammy street, 7131 Dreamville, USA
           </div>
           <div>
             <span>
@@ -219,7 +202,7 @@
             <span>
               <i class="fas fa-phone"></i>
             </span>
-            368-456-4272
+            456-456-4512
           </div>
           <div>
             <span>
@@ -232,12 +215,13 @@
     </div>
     </div>
   </footer>
-  <!-- End Footer -->
+  <!-- End Footer --->
 
-  <!-- GSAP -->
+  <!-- GSAP --->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-  <!-- Custom Script -->
+  <!-- Custom Script --->
   <script src="./js/index.js"></script>
 </body>
 
-</html>
+</html>----->
+
